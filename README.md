@@ -39,7 +39,7 @@ A aplicação de adição de tarefas do dia a dia foi desenvolvida utilizando as
 
 **Como Executar a Aplicação**
 
-  Siga as etapas abaixo para executar a aplicação de adição de tarefas do dia a dia em seu ambiente local: 
+   Siga as etapas abaixo para executar a aplicação de adição de tarefas do dia a dia em seu ambiente local: 
 
 1. Certifique-se de ter o Python instalado em seu sistema. Você pode fazer o download do Python em https://www.python.org/downloads/. 
 
