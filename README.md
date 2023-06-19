@@ -49,27 +49,19 @@ Siga as etapas abaixo para executar a aplicação de adição de tarefas do dia 
 
 4. Crie e ative um ambiente virtual (opcional, mas recomendado): 
 
-bash 
-
 python3 -m venv venv
 
 No Linux/Mac: 
 source env/bin/activate
-
-bash
 
 No Windows:
 env\Scripts\activate 
 
 5. Instale as dependências do projeto: 
 
-bash 
-
 pip install -r requirements.txt 
 
 6. Execute o aplicativo: 
-
-bash 
 
 python3 app.py  
 
@@ -77,7 +69,7 @@ python3 app.py
 
 Agora você pode começar a adicionar suas tarefas diárias e desfrutar de uma melhor organização em seu dia a dia! 
 
-  
+
 **Conclusão** 
 
 A aplicação de adição, edição e remoção de tarefas é uma maneira eficiente de gerenciar e acompanhar suas tarefas diárias. Com recursos simples e uma interface intuitiva, você poderá adicionar, editar, excluir e marcar suas tarefas como concluídas de maneira conveniente. Experimente esta aplicação e melhore sua produtividade no dia a dia! 
