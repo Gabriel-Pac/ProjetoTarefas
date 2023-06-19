@@ -1,3 +1,8 @@
+**Trabalho Sistemas Distribuídos e Mobile
+Projeto: Tarefas do dia para fazer.
+Membros: Dayvson do Carmo Gomes - RA:321217293
+Gabriel Porto Alves - RA: 32210038**
+
 **CRUD - TAREFAS.**
 
 Bem-vindo à aplicação de adição e edição de tarefas! Esta é uma aplicação simples que permite que você adicione, gerencie e acompanhe suas tarefas diárias de maneira eficiente. Com esta aplicação, você poderá organizar suas tarefas de forma conveniente e nunca mais esquecer os compromissos importantes. 
@@ -22,7 +27,7 @@ A aplicação de adição de tarefas do dia a dia oferece as seguintes funcional
 
 A aplicação de adição de tarefas do dia a dia foi desenvolvida utilizando as seguintes tecnologias: 
 
-- Linguagem de programação: Python 
+- Linguagem de programação: Python3
 
 - Framework web: Flask 
 
@@ -67,3 +72,4 @@ Agora você pode começar a adicionar suas tarefas diárias e desfrutar de uma m
 **Conclusão** 
 
 A aplicação de adição, edição e remoção de tarefas é uma maneira eficiente de gerenciar e acompanhar suas tarefas diárias. Com recursos simples e uma interface intuitiva, você poderá adicionar, editar, excluir e marcar suas tarefas como concluídas de maneira conveniente. Experimente esta aplicação e melhore sua produtividade no dia a dia! 
+
