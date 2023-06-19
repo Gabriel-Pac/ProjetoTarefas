@@ -1,7 +1,7 @@
 **Trabalho Sistemas Distribuídos e Mobile
-Projeto: Tarefas do dia para fazer.
+Projeto: Tarefas do dia para fazer.**
 
-Membros: Dayvson do Carmo Gomes - RA:321217293
+**Membros: Dayvson do Carmo Gomes - RA:321217293
 Gabriel Porto Alves - RA: 32210038**
 
 **CRUD - TAREFAS.**
