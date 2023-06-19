@@ -51,9 +51,15 @@ Siga as etapas abaixo para executar a aplicação de adição de tarefas do dia 
 
 bash 
 
-python3 -m venv venv 
+python3 -m venv venv
 
-source venv/bin/activate 
+No Linux/Mac: 
+source env/bin/activate
+
+bash
+
+No Windows:
+env\Scripts\activate 
 
 5. Instale as dependências do projeto: 
 
@@ -65,7 +71,7 @@ pip install -r requirements.txt
 
 bash 
 
-python app.py  
+python3 app.py  
 
 7. Abra um navegador da web e acesse `http://localhost:5000` para visualizar a aplicação. 
 
