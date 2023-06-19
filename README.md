@@ -49,7 +49,7 @@ A aplicação de adição de tarefas do dia a dia foi desenvolvida utilizando as
 
 4. Crie e ative um ambiente virtual (opcional, mas recomendado): 
 
-   python3 -m venv venv
+   python3 -m venv env
 
    No Linux/Mac:
     
