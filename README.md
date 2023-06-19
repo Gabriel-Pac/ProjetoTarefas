@@ -51,21 +51,26 @@ A aplicação de adição de tarefas do dia a dia foi desenvolvida utilizando as
 
    python3 -m venv venv
 
-   No Linux/Mac: 
+   No Linux/Mac:
+    
    source env/bin/activate
 
    No Windows:
-   env\Scripts\activate 
+   
+   env\Scripts\activate
+   
 
-5. Instale as dependências do projeto: 
+6. Instale as dependências do projeto: 
 
    pip install -r requirements.txt 
 
-6. Execute o aplicativo: 
+
+7. Execute o aplicativo: 
 
    python3 app.py  
 
-7. Abra um navegador da web e acesse `http://localhost:5000` para visualizar a aplicação. 
+
+8. Abra um navegador da web e acesse `http://localhost:5000` para visualizar a aplicação. 
 
    Agora você pode começar a adicionar suas tarefas diárias e desfrutar de uma melhor organização em seu dia a dia! 
 
