@@ -39,7 +39,7 @@ A aplicação de adição de tarefas do dia a dia foi desenvolvida utilizando as
 
 **Como Executar a Aplicação**
 
-Siga as etapas abaixo para executar a aplicação de adição de tarefas do dia a dia em seu ambiente local: 
+  Siga as etapas abaixo para executar a aplicação de adição de tarefas do dia a dia em seu ambiente local: 
 
 1. Certifique-se de ter o Python instalado em seu sistema. Você pode fazer o download do Python em https://www.python.org/downloads/. 
 
@@ -49,25 +49,25 @@ Siga as etapas abaixo para executar a aplicação de adição de tarefas do dia 
 
 4. Crie e ative um ambiente virtual (opcional, mas recomendado): 
 
-python3 -m venv venv
+   python3 -m venv venv
 
-No Linux/Mac: 
-source env/bin/activate
+   No Linux/Mac: 
+   source env/bin/activate
 
-No Windows:
-env\Scripts\activate 
+   No Windows:
+   env\Scripts\activate 
 
 5. Instale as dependências do projeto: 
 
-pip install -r requirements.txt 
+   pip install -r requirements.txt 
 
 6. Execute o aplicativo: 
 
-python3 app.py  
+   python3 app.py  
 
 7. Abra um navegador da web e acesse `http://localhost:5000` para visualizar a aplicação. 
 
-Agora você pode começar a adicionar suas tarefas diárias e desfrutar de uma melhor organização em seu dia a dia! 
+   Agora você pode começar a adicionar suas tarefas diárias e desfrutar de uma melhor organização em seu dia a dia! 
 
 
 **Conclusão** 
