@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="meu-titulo" style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;">{% block title %} Cadastre nova tarefa {% endblock %}</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="title">Titulo</label>
+        <input type="text" name="title"
+               placeholder="Titulo da Tarefa" class="form-control"
+               value="{{ request.form['title'] }}"></input>
+    </div>
+
+    <div class="form-group">
+        <label for="content">Tarefa</label>
+        <textarea name="content" placeholder="Conteudo Da Tarefa"
+                  class="form-control">{{ request.form['content'] }}</textarea>
+    </div>
+    
+
+    <div class="form-group">
+        <div class="row">
+        <div class="col-md-6">
+            <label for="deadline">Horário Limite</label>
+            <input type="time" name="deadline" id="deadline" class="form-control" value="{{ request.form['deadline'] }}">
+        </div>
+        <div class="col-md-6">
+            <label for="deadline">Data Limite</label>
+            <input type="date" name="deadlineDate" id="deadlineDate" class="form-control" value="{{ request.form['deadlineDate'] }}">
+        </div>
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary"; style="background-color:rgba(32, 222, 187, 0.878); border-color:rgba(32, 222, 187, 0.878); color:rgb(118, 118, 118);color:rgb(118, 118, 118) ; font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;">CRIAR</button>
+    </div>
+</form>
+
+{% endblock %}

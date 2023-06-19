@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h2 style= "font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;" >{% block title %} {{ post['title'] }} {% endblock %}</h2>
+    <span style="background-color: rgba(32, 222, 187, 0.878); color:rgb(118, 118, 118); font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;"  class="badge badge-primary">{{ post['created'] }}</span>
+    <p style="font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;">{{ post['content'] }}</p>
+    
+{% endblock %}

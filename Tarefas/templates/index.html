@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+    <h1 style= 'font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif; '> {% block title %} TAREFAS {% endblock %} </h1>
+
+    {% for post in posts %}
+        
+        <a href="{{ url_for('post', post_id=post['id']) }}" style="color:rgb(118, 118, 118) ; font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;"><h2>{{ post['title'] }}</h2></a>
+        <span class="badge badge-primary" style="background-color: rgba(32, 222, 187, 0.878); color:rgb(118, 118, 118); font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;">HORARIO:  {{ post['deadline'] }}</span><br>
+        <span class="badge badge-primary" style="background-color: rgba(32, 222, 187, 0.878); color:rgb(118, 118, 118); font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;">DATA: {{ post['deadlineDate'] }}</span>
+        <a href="{{ url_for('edit', id=post['id']) }}">
+        <span class="badge badge-warning" style="color:rgb(118, 118, 118); font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;" >Editar</span>
+        </a>
+	    <hr>
+        
+     
+    {% endfor %}
+    	
+{% endblock %}
+
+
