@@ -3,7 +3,7 @@ import os
 from flask import Flask, render_template, request, url_for, flash, redirect
 from datetime import datetime 
 from date_time_checker import check_datetime
-
+from datetime import datetime,date
 
 # cria a conexao com o BD
 def get_db_connection():
@@ -29,7 +29,11 @@ def index():
     conn = get_db_connection()
     posts = conn.execute('SELECT * FROM posts').fetchall()
     conn.close()
-    return render_template('index.html', posts=posts)
+
+    tempo_real = datetime.now().time()
+    data_atual= date.today()
+
+    return render_template('index.html', posts=posts, tempo_real=tempo_real,  data_atual= data_atual)
 
 @app.route('/<int:post_id>')
 def post(post_id):
@@ -105,6 +109,14 @@ def delete(id):
 def data_atual():
     selected_date = datetime.now().date()
     return render_template('seu_template.html', selected_date=selected_date, posts="posts")
+
+@app.template_filter('inf_data')
+def data(inf_data):
+    return datetime.strptime(inf_data, '%Y-%m-%d').date()
+
+@app.template_filter('inf_tempo')
+def string_to_time(inf_tempo):
+    return datetime.strptime(inf_tempo, '%H:%M').time()
 
 # inicia servico
 if __name__ == "__main__":
